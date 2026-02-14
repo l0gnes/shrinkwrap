@@ -8,7 +8,7 @@ image:
   repository: ghcr.io/l0gnes/shrinkwrap
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "master" # {"$imagepolicy": "flux-system:shrinkwrap"}
+  tag: "sha256-201bc11f7996a64c2694a637f03fb637a9a3712a67f1c6025c4b9de455cea8af" # {"$imagepolicy": "flux-system:shrinkwrap"}
 
 imagePullSecrets: []
 nameOverride: ""
